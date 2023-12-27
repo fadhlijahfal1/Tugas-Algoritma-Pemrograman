@@ -1,4 +1,4 @@
-Pseudocode
+Tugas 1 Pseudocode
 
 1. Mulai penggunaan Billing Warnet
    - Masukan waktu mulai penggunaan Billing Warnet  (TM)
