@@ -1,0 +1,21 @@
+Pseudocode
+
+1. Mulai penggunaan Billing Warnet
+   - Masukan waktu mulai penggunaan Billing Warnet  (TM)
+
+2. Akhir penggunaan Billing Warnet
+   - Masukan waktu akhir penggunaan Billing Warnet (TM2)
+
+3. Hitung durasi penggunaan
+   - waktu_penggunaan = TM2 - TM
+   - jam = waktu_penggunaan / 3600
+   - sisa_detik = waktu_penggunaan % 3600
+   - menit = sisa_detik / 60
+   - detik = sisa_detik % 60
+
+4. Hitung biaya total
+   - biaya = jam * 5000
+
+5. Tampilkan durasi penggunaan dan biaya total
+   - tampilkan jam, menit, dan detik
+   - tampilkan biaya
