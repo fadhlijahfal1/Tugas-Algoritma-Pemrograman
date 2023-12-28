@@ -1,0 +1,29 @@
+1. Mulai
+
+2. Awal Penggunaan Billing Warnet (A1) :
+   a. Input Waktu Mulai Penggunaan (TM)
+
+3. Proses Menggunakan Billing Warnet :
+   a. Hitung durasi penggunaan dalam jam (J), menit (M), dan detik (D)
+      - TM : A1 - Waktu Akhir Penggunaan
+      - J : TM / 3600
+      - M : (TM - (J*60)) / 60
+      - D : (TM - (J*60) - (M*60))
+   b. Hitung biaya total penggunaan (B)
+      - B = J*5000
+
+4. Akhir Penggunaan Billing Warnet (A2) :
+   a. Input waktu akhir Billing Warnet (TM2)
+   b. Hitung durasi penggunaan dalam jam (J), menit (M), dan detik (D)
+      - TM2 : A2 - Waktu Mulai Penggunaan
+      - J : TM2 / 3600
+      - M : (TM2 - (J*60)) / 60
+      - D : (W2 - (J*60) - (M*60))
+   c. Hitung biaya penggunaan Billing Warnet (B2)
+      - B2 = J*5000
+
+5. Tampilkan Hasil
+   a. Tampilkan durasi penggunaan dalam jam, menit, dan detik
+   b. Tampilkan Biaya total penggunaan dalam rupiah
+
+6. Selesai
